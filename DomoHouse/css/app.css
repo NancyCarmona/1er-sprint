@@ -1,0 +1,104 @@
+/*#featured { background: url(spinner.gif) no-repeat center center #f4f4f4; height: 300px; }
+#featured img { display: none; }
+
+#featured.orbit { background: none; }
+#featured.orbit img { display: block; }
+*/
+
+Sombra {
+  color:#1D7537;
+  /*font:"Traj";*/
+  text-shadow: 0 1px 0 #1D7537,
+               0 2px 0 #1D7537,
+               0 3px 0 #1D7537,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+Sombra1 {
+  color:#C41515;
+  /*font:"Traj";*/
+  text-shadow: 0 1px 0 #E81010,
+               0 2px 0 #A51010,
+               0 3px 0 #A51010,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+@font-face
+{
+   font-family: "Traj";
+   src: url("TrajanPro-Regular.ttf");
+}
+
+Tit{
+	font-family:"Traj";
+	}
+
+
+@font-face
+{
+   font-family: "Quick";
+   src: url("Quicksand_Bold.otf");
+}
+
+SubTit{
+    font-family: "Quick"
+  }
+
+
+
+  #logo1{
+    border: 2px dotted red;
+    height: 200px;
+    width: 200px;
+  }
+
+
+  #luz{
+    /*border: 1px solid #D2CDCD;*/
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+  }
+
+ /* #post1{
+    float: left;
+    display: inline-block;
+
+  } */
+  #contenedor {
+    border: 2px solid #D2CDCD;
+  }
+
+  #i1{
+    float: left;
+  }
+
+  #i2{
+    float: left;
+  }
+
+
+  #imgluz{
+    height: 350px;
+    width: 500px;
+    margin-top: 15px;
+
+  }
